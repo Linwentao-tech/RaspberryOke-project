@@ -1,0 +1,14 @@
+# Treat Qt Designer UI files as generated (do not count in language stats)
+*.ui linguist-generated=true
+ui_*.h linguist-generated=true
+moc_*.cpp linguist-generated=true
+
+# Ignore build artifacts
+*.o linguist-generated=true
+*.obj linguist-generated=true
+*.pro.user linguist-generated=true
+.DS_Store linguist-generated=true
+
+# Make sure C++ is counted as the main language
+*.cpp linguist-language=C++
+*.h linguist-language=C++
