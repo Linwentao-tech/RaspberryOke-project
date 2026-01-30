@@ -1,0 +1,1 @@
+RaspberryOke is a C++ / Qt desktop application that implements a simplified karaoke-style music player. The project focuses on audio playback, LRC lyrics parsing, and time-synchronized lyric display, with a modular structure that allows future extension to hardware features such as lighting control on Raspberry Pi.
